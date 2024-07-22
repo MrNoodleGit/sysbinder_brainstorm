@@ -8,7 +8,7 @@ import os
 import glob
 
 # Specify the directory containing the JSON files
-directory = 'data/training_subset/'
+directory = 'data/training/'
 
 # Use glob to list all JSON files in the directory
 json_files = glob.glob(os.path.join(directory, '*.json'))
